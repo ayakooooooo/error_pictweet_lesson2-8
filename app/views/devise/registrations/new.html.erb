@@ -8,6 +8,7 @@
         <%= f.label :first_name %> <em>(6 characters maximum)</em><br />
         <%= f.text_field :first_name, autofocus: true, maxlength: "6" %>
       </div>
+      <%# autofocus: true,と記述すると指定した入力欄が入力待ちの状態になります%>
 
       <div class="field">
         <%= f.label :last_name %> <em>(6 characters maximum)</em><br />
